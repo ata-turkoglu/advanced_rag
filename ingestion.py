@@ -34,7 +34,7 @@ vectorstore = Chroma.from_documents(
 
 retriever = Chroma(
     collection_name="rag-chroma",
-    persist_directory="./.Chroma",
+    persist_directory="./.chroma",
     embedding_function=OpenAIEmbeddings()
 )
 
